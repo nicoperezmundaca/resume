@@ -1,0 +1,76 @@
+% load configuration
+\input{./contact/preamble.tex}
+
+% begin resume
+\begin{document}
+
+% load contact info
+\input{./contact/contact.tex}
+
+% load skills
+\hrule
+\begin{indentsection}{\parindent}
+\begin{description*}
+  \input{./skills/languages.tex}
+  \input{./skills/technologies.tex}
+\end{description*}
+\end{indentsection}
+
+% load professional experience
+\hrule
+\vspace{-0.4em}
+\subsection*{Professional Experience}
+\begin{itemize}
+  \parskip=0.1em
+  
+  \input{./experience/jobs/job_datawheel.tex}
+  \input{./experience/jobs/job_cis2.tex}
+\end{itemize}
+
+% load professional experience
+\hrule
+\vspace{-0.4em}
+\subsection*{Projects}
+\begin{itemize}
+  \parskip=0.1em
+  
+  \input{./experience/projects/project_ciren.tex}
+  \input{./experience/projects/project_oec.tex}
+  \input{./experience/projects/project_datamexico.tex}
+  \input{./experience/projects/project_chilecracia.tex}
+  \input{./experience/projects/project_adalytics.tex}
+\end{itemize}
+
+% page break 
+\clearpage
+
+% load educational information
+\hrule
+\vspace{-0.4em}
+\subsection*{Education}
+\begin{itemize}
+  \parskip=0.1em
+
+  \input{./education/university_degree.tex}
+  \input{./education/university_bachelor.tex}
+\end{itemize}
+\hrule
+
+%\vspace*{\fill}
+%\vspace*{\fill}
+
+%\hrule
+%\begin{indentsection}{\parindent}
+%\begin{description*}
+%  \input{./skills/others.tex}
+%\end{description*}
+%\end{indentsection}
+
+% load reference to github document repo
+\begin{center}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\footnotesize \LaTeX \ source available at
+\url{https://github.com/nicoperezmundaca/resume}
+\end{center}
+
+\end{document}
