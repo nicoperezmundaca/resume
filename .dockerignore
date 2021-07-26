@@ -1,0 +1,12 @@
+# files
+.git
+.gitignore
+.aux
+.log
+.out
+.tex
+.md
+Dockerfile
+
+# directories
+frags
