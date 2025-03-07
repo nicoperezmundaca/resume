@@ -7,17 +7,20 @@
 % load contact info
 \input{./frags/personal/contact.tex}
 
-% insert summary
+% load skills
 \hrule
-\vspace{-0.4em}
-\subsection*{Summary}
-\input{./frags/personal/summary.tex}\
-\begin{description}
-  \parskip=-0.4em
-
+\begin{indentsection}{\parindent}
+\begin{description*}
   \input{./frags/skills/languages.tex}
   \input{./frags/skills/technologies.tex}
-\end{description}
+\end{description*}
+\end{indentsection}
+
+% insert profile
+\hrule
+\vspace{-0.4em}
+\subsection*{Profile}
+\input{./frags/personal/profile.tex}\
 
 % load professional experience
 \hrule
@@ -30,9 +33,6 @@
   \input{./frags/experience/jobs/job_cis2.tex}
 \end{itemize}
 
-% page break 
-%\clearpage
-
 % load educational information
 \hrule
 \vspace{-0.4em}
@@ -43,13 +43,6 @@
   \input{./frags/education/university_degree.tex}
 \end{itemize}
 \hrule
-
-%\hrule
-%\begin{indentsection}{\parindent}
-%\begin{description*}
-%  \input{./skills/others.tex}
-%\end{description*}
-%\end{indentsection}
 
 \vspace*{\fill}
 
