@@ -1,0 +1,63 @@
+% load configuration
+\input{./resources/preamble/preamble.tex}
+
+% begin resume
+\begin{document}
+
+% load contact info
+\input{./frags/personal/contact.tex}
+
+% insert summary
+\hrule
+\vspace{-0.4em}
+\subsection*{Summary}
+\input{./frags/personal/summary.tex}\
+\begin{description}
+  \parskip=-0.4em
+
+  \input{./frags/skills/languages.tex}
+  \input{./frags/skills/technologies.tex}
+\end{description}
+
+% load professional experience
+\hrule
+\vspace{-0.4em}
+\subsection*{Professional Experience}
+\begin{itemize}
+  \parskip=0.1em
+  
+  \input{./frags/experience/jobs/job_datawheel.tex}
+  \input{./frags/experience/jobs/job_cis2.tex}
+\end{itemize}
+
+% page break 
+%\clearpage
+
+% load educational information
+\hrule
+\vspace{-0.4em}
+\subsection*{Education}
+\begin{itemize}
+  \parskip=0.1em
+
+  \input{./frags/education/university_degree.tex}
+\end{itemize}
+\hrule
+
+%\hrule
+%\begin{indentsection}{\parindent}
+%\begin{description*}
+%  \input{./skills/others.tex}
+%\end{description*}
+%\end{indentsection}
+
+\vspace*{\fill}
+
+% load reference to github document repo
+%\begin{center}
+%\definecolor{gray}{rgb}{0.5,0.5,0.5}
+%\footnotesize \LaTeX \ source available at
+%\url{https://github.com/nicoperezmundaca/resume}
+%\end{center}
+
+\end{document}
