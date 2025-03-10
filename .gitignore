@@ -1,5 +1,9 @@
 *.aux
+*.bcf
 *.log
 *.out
-*.synctex.gz
+*.xmpi
 *.dvi
+*.timestamp
+*.run.xml
+*.synctex.gz
